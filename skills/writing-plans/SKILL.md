@@ -95,6 +95,20 @@ def function(input):
 Run: `pytest tests/path/test.py::test_name -v`
 Expected: PASS
 
+- [ ] **Step 5: Before commit**
+
+Despite unit tests run quality gates from quality-gates-cli-commands skill:
+- yapf
+- lint
+- mypy
+- genconf
+
+and
+- local acceptance tests for particular pipeline
+
+If the quality-gates-cli-commands skill doesn't exist inform user about it!
+
+
 - [ ] **Step 5: Commit**
 
 ```bash
