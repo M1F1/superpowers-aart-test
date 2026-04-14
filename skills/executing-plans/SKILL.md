@@ -20,6 +20,7 @@ Load plan, review critically, execute all tasks, report when complete.
 2. Review critically - identify any questions or concerns about the plan
 3. If concerns: Raise them with your human partner before starting
 4. If no concerns: Create TodoWrite and proceed
+5. **REQUIRED SUB-SKILL:** Use superpowers:using-git-worktrees - Set up isolated workspace before starting
 
 ### Step 2: Execute Tasks
 
