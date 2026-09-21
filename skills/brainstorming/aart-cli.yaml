@@ -1,0 +1,24 @@
+schema: aart-cli.dev/skill/v1
+artifact:
+  kind: skill
+  name: brainstorming
+  summary: Turn an idea into a design and a spec through collaborative dialogue, before any code.
+  version: 1.0.0
+payload:
+  include:
+    - SKILL.md
+    - spec-document-reviewer-prompt.md
+    - visual-companion.md
+    - scripts/frame-template.html
+    - scripts/helper.js
+    - scripts/server.cjs
+    - scripts/start-server.sh
+    - scripts/stop-server.sh
+compatibility:
+  harnesses:
+    - claude
+    - opencode
+    - tabnine
+  platforms:
+    - darwin
+    - linux

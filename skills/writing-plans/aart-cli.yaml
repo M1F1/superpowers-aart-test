@@ -1,0 +1,18 @@
+schema: aart-cli.dev/skill/v1
+artifact:
+  kind: skill
+  name: writing-plans
+  summary: Write an implementation plan as bite-sized tasks for an engineer with no context.
+  version: 1.0.0
+payload:
+  include:
+    - SKILL.md
+    - plan-document-reviewer-prompt.md
+compatibility:
+  harnesses:
+    - claude
+    - opencode
+    - tabnine
+  platforms:
+    - darwin
+    - linux
